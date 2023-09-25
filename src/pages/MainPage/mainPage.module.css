@@ -1,0 +1,32 @@
+.MainPage {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+.content {
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	align-items: center;
+	width: 100%;
+	justify-items: flex-start;
+	position: relative;
+}
+.content:before {
+	content: "";
+	width: 100%;
+	height: 150px;
+	background-color: #bb1d1e;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.content_inner {
+	width: 100%;
+	height: 100vh;
+	overflow-y: auto;
+}
+@media(max-width: 920px){
+	.content{
+		grid-template-columns: 1fr;
+	}
+}

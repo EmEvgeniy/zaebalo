@@ -1,0 +1,14 @@
+export { default as InitialWrap } from "./animation/InitialWrap/InitialWrap";
+export { default as InnerWrap } from "./animation/InnerWrap/InnerWrap";
+export { default as Logo } from "./static/logo/Logo";
+export { default as LoginInput } from "./UI/loginInput/LoginInput";
+export { default as LoginBtn } from "./UI/loginBtn/LoginBtn";
+export { default as Header } from "./static/header/Header";
+export { default as Aside } from "./static/aside/Aside";
+export { default as Burger } from "./UI/burger/Burger";
+export { default as AlertBell } from "./UI/alertBell/AlertBell";
+export { default as UserProfile } from "./UI/userProfile/UserProfile";
+export { default as GoodsSearch } from "./UI/goodsSearch/GoodsSearch";
+export { default as FilterProductCount } from "./UI/filterProductCount/FilterProductCount";
+export { default as Card } from "./UI/card/Card";
+export { default as CardEditComp } from "./cardEditComp/CardEditComp";

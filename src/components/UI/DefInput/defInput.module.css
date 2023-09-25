@@ -1,0 +1,23 @@
+.DefInput {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	gap: 10px;
+	width: 100%;
+}
+.label {
+	font-size: 13px;
+	font-weight: 600;
+	width: 100%;
+}
+.input {
+	border: none;
+	border-radius: 5px;
+	background: #f4f4f4;
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-size: 16px;
+	font-weight: 500;
+}

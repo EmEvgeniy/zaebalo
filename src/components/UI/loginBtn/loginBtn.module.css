@@ -1,0 +1,15 @@
+.LoginBtn {
+	border-radius: 10px;
+	background: #bb1d1e;
+	color: #fff;
+	font-weight: 600;
+	padding: 10px 40px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+.LoginBtn:hover {
+	background: #892222;
+}
+.LoginBtn:hover {
+	transform: scale(0.9, 0.9);
+}

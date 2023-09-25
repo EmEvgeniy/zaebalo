@@ -1,0 +1,15 @@
+.LoginInput {
+	width: 100%;
+	border: none;
+	font-size: 18px;
+	outline: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	border: 1px solid #d1d1d1;
+	background: #fff;
+	color: #000;
+}
+.LoginInput.fail {
+	border: 1px solid red;
+	color: red;
+}
